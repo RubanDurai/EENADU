@@ -24,7 +24,7 @@ class eenaduParser:
         self.date: str = date
         if self.date is None:
             self.date = self._get_today_date()
-            logger.info("date is not set, using today's date %s!", self.date)
+            logger.info("date not set, using today's date %s!", self.date)
 
         ff_options = Options()
         ff_options.add_argument('--headless')
