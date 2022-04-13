@@ -1,0 +1,7 @@
+img2pdf
+pyvips
+requests
+selenium
+bs4
+lxml
+python-telegram-bot
